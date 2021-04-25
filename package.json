@@ -1,0 +1,38 @@
+{
+  "name": "api-pokemon",
+  "version": "1.0.0",
+  "description": "Trabalho para disciplina de Sistemas Distribuídos e Mobile",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VilasBoas1407/api-pokemon.git"
+  },
+  "keywords": [
+    "API;POKEMON;NODEJS"
+  ],
+  "author": "Lucas Vilas Boas Lage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VilasBoas1407/api-pokemon/issues"
+  },
+  "homepage": "https://github.com/VilasBoas1407/api-pokemon#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "router": "^1.3.5",
+    "sequelize": "^6.6.2",
+    "tedious": "^11.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "sequelize-cli": "^6.2.0"
+  }
+}
